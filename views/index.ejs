@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>First Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="/allInfo" method="POST">
+
+        <p>Your Name</p>
+        <input type="text" name="name"></input>
+
+        <br>
+
+        <p>Favorite Language</p>
+        <select name="language">
+            <option>Python</option>
+            <option>Java Script</option>
+            <option>Java</option>
+            <option>Ruby</option>
+        </select>
+
+        <br>
+
+        <p>Dojo Location</p>
+        <select name="location">
+            <option>San Jose</option>
+            <option>San Francisco</option>
+            <option>Vienna</option>
+            <option>Munich</option>
+        </select>
+
+        <br>
+
+        <p>Comment</p>
+        <textarea name="comment"></textarea>
+        
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
